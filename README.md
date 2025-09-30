@@ -1,8 +1,11 @@
 # Graph-Regularizer-Survival
 
-This is the demo code for implementating the graph-regularized Cox regression model.
+This repo contains the official implementation for the paper **[Survival Analysis with Graph-Based Regularization for Predictors](https://link.springer.com/article/10.1007/s12561-025-09483-8)** \
+by [Liyan Xie](https://liyanxie.github.io/), Xi He, [Pinar Keskinocak](https://sites.gatech.edu/pinar-keskinocak/) and [Yao Xie](https://www2.isye.gatech.edu/~yxie77/).
 
-Reference: https://arxiv.org/abs/2108.12827
+
+We implement a graph-regularized Cox proportional hazards model for variable selection in survival analysis, leveraging prior knowledge of correlations among variables encoded as a graph.
+
 
 Main code: graph-regularizer-main.R
 
