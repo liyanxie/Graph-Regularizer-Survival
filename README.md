@@ -11,7 +11,7 @@ We implement a graph-regularized Cox proportional hazards model for variable sel
 <br>
 
 <p align="center">
-  <img src="assets/graph-topos2.png" width="800"/>
+  <img src="assets/graph-topos2.png" width="500"/>
   <br>
   <em><sub> Illustration of three predictor graph typologies used in the simulation. From left to right: the sparse graph, the ring graph, and the graph with three communities.</em>
 </p>
