@@ -7,9 +7,21 @@ by [Liyan Xie](https://liyanxie.github.io/), Xi He, [Pinar Keskinocak](https://s
 We implement a graph-regularized Cox proportional hazards model for variable selection in survival analysis, leveraging prior knowledge of correlations among variables encoded as a graph.
 
 
-Main code: graph-regularizer-main.R
+- **Main code:** `graph-regularizer-main.R`  
+- **Supporting functions:** `graph-lasso-helper.R`
+This code simulates and fits the graph-regularized Cox proportional hazards model for variable selection under three types of graph structures — sparse graph (Erdős–Rényi), Ring, and Community graphs (as shown in Figure below) — to represent prior correlations among variables. The scripts generate synthetic survival datasets, apply the graph-regularized Cox method, and evaluate model performance. These implementations reproduce the simulation examples presented in the paper.
 
-Supporting functions are provided in: graph-lasso-helper.R
+
+<br>
+
+<p align="center">
+  <img src="assets/graph-topos2.png" width="800"/>
+  <br>
+  <em><sub> Illustration of three predictor graph typologies used in the simulation. From left to right: the sparse graph, the ring graph, and the graph with three communities.</em>
+</p>
+
+<br>
+
 
 
 ## References
